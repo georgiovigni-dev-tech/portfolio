@@ -9,7 +9,6 @@ import {
   ChevronRight,
   ChevronLeft,
   MapPin,
-  Calendar,
   Loader2,
   Github,
   ArrowRight,
@@ -61,7 +60,7 @@ const projects: Project[] =[
     title: "Boutique POS",
     // Copywriting: Focus sur le problème résolu (gestion) et le bénéfice (analyse financière)
     description: "Solution complète de point de vente. Permet aux gérants de digitaliser leurs ventes, d'éditer des factures PDF et de suivre leur rentabilité en temps réel.",
-    tags: ["React", "TypeScript", "Tailwind", "Node.js"],
+    tags:["React", "TypeScript", "Tailwind", "Node.js"],
     category: "Full Stack",
     sourceLink: "https://github.com/georgiovigni-dev-tech/Gio-Boutique",
     image: "https://i.ibb.co/nsB0kthk/Shared-Screenshot.jpg"
@@ -112,7 +111,7 @@ const Portfolio: React.FC = () => {
   const[isMenuOpen, setIsMenuOpen] = useState(false);
 
   const formRef = useRef<HTMLFormElement>(null);
-  const [isSending, setIsSending] = useState(false);
+  const[isSending, setIsSending] = useState(false);
 
   const [currentPage, setCurrentPage] = useState(1);
   const projectsPerPage = 3;
