@@ -206,10 +206,10 @@ const Portfolio: React.FC = () => {
         href="https://wa.me/2290191142478?text=Bonjour%20Georgio,%20j'ai%20un%20projet%20dont%20j'aimerais%20te%20parler."
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 bg-[#128c7e] hover:bg-[#075e54] text-white p-3.5 rounded-full shadow-lg transition-transform duration-300 hover:scale-105 z-50 flex items-center justify-center"
+        className="fixed bottom-6 right-6 bg-[#128c7e] hover:bg-[#075e54] text-white p-4 rounded-full shadow-lg transition-transform duration-300 hover:scale-105 z-50 flex items-center justify-center"
         aria-label="Me contacter sur WhatsApp"
       >
-        <FaWhatsapp size={22} />
+        <FaWhatsapp size={25} />
       </a>
 
       {/* --- Header / Navigation --- */}
