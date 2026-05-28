@@ -54,12 +54,12 @@ const skills: Skill[] = [
 
 const projects: Project[] = [
   {
-    title: "Boutique POS",
-    description: "Solution complète de point de vente. Permet aux gérants de digitaliser leurs ventes, d'éditer des factures PDF et de suivre leur rentabilité en temps réel.",
-    tags: ["React", "TypeScript", "Tailwind", "Node.js"],
+    title: "DIGIMARQ",
+    description: "DigitMarq est une plateforme SaaS moderne conçue pour permettre aux entrepreneurs, créateurs et entreprises de vendre facilement des produits digitaux et physiques depuis un seul écosystème. La solution propose une séparation des espaces de gestion afin d’offrir une expérience fluide aussi bien pour les produits numériques que pour les produits physiques.",
+    tags: ["Next JS", "TypeScript", "Tailwind", "Supabase"],
     category: "Full Stack",
-    sourceLink: "https://github.com/georgiovigni-dev-tech/Gio-Boutique",
-    image: "https://i.ibb.co/nsB0kthk/Shared-Screenshot.jpg"
+    demoLink: "https://ecommerce-saas-delta.vercel.app/",
+    image: "https://i.ibb.co/rRXCzPj2/p1.jpg"
   },
   {
     title: "Taskflow",
