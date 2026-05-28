@@ -326,14 +326,14 @@ const Portfolio: React.FC = () => {
             
             {/* Image de profil à gauche */}
             <div className="lg:col-span-5 w-full flex justify-center lg:justify-start">
-              <div className="relative aspect-[4/5] w-full max-w-sm border border-white/10 bg-white/[0.01] p-3">
+              <div className="relative aspect-4/5 w-full max-w-sm border border-white/10 bg-white/1 p-3">
                 <div className="absolute top-0 right-0 w-4 h-4 border-t border-r border-violet-500/40"></div>
                 <div className="absolute bottom-0 left-0 w-4 h-4 border-b border-l border-violet-500/40"></div>
-                <img
-                  src="https://i.ibb.co/Dfrcytgn/Generated-Image-October-31-2025-2-49-AM.png"
-                  alt="Georgio Vignizogbin"
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-                />
+                  <img
+                    src="https://i.ibb.co/Dfrcytgn/Generated-Image-October-31-2025-2-49-AM.png"
+                    alt="Georgio Vignizogbin"
+                    className="w-full h-full object-cover hover:grayscale transition-all duration-700"
+                  />
               </div>
             </div>
 
