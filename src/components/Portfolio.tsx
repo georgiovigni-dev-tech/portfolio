@@ -55,7 +55,7 @@ const skills: Skill[] = [
 const projects: Project[] = [
   {
     title: "DIGIMARQ",
-    description: "DigitMarq est une plateforme SaaS moderne conçue pour permettre aux entrepreneurs, créateurs et entreprises de vendre facilement des produits digitaux et physiques depuis un seul écosystème. La solution propose une séparation des espaces de gestion afin d’offrir une expérience fluide aussi bien pour les produits numériques que pour les produits physiques.",
+    description: "DigiMarq est une plateforme SaaS moderne conçue pour permettre aux entrepreneurs, créateurs et entreprises de vendre facilement des produits digitaux et physiques depuis un seul écosystème. La solution propose une séparation des espaces de gestion afin d’offrir une expérience fluide aussi bien pour les produits numériques que pour les produits physiques.",
     tags: ["Next JS", "TypeScript", "Tailwind", "Supabase"],
     category: "Full Stack",
     demoLink: "https://ecommerce-saas-delta.vercel.app/",
