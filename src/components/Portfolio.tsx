@@ -156,7 +156,7 @@ const Portfolio: React.FC = () => {
     });
 
     toast.success("Téléchargement du CV initié !", {
-      position: "bottom-right",
+      position: "top-center",
       theme: "dark",
       autoClose: 3000
     });
