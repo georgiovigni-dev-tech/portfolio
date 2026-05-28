@@ -4,18 +4,14 @@ import {
   X,
   Mail,
   ExternalLink,
-  Code2,
   Download,
   ChevronRight,
   ChevronLeft,
-  MapPin,
   Loader2,
   Github,
   ArrowRight,
   CheckCircle,
-  Clock,
-  Zap
-} from 'lucide-react';
+  } from 'lucide-react';
 
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
