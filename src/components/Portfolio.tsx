@@ -282,7 +282,7 @@ const Portfolio: React.FC = () => {
               Je conçois des <span className="font-medium text-transparent bg-clip-text bg-gradient-to-r from-violet-300 via-fuchsia-300 to-violet-200">systèmes web</span> performants.
             </h1>
 
-            <p className="text-slate-400 text-justify text-lg max-w-xl font-light leading-relaxed">
+            <p className="text-slate-400 text-lg max-w-xl font-light leading-relaxed">
               Développeur Full Stack. J'aide les entreprises à automatiser leurs processus métiers et à matérialiser leurs idées à travers des applications robustes et scalables.
             </p>
 
@@ -346,7 +346,7 @@ const Portfolio: React.FC = () => {
                 </h2>
               </div>
 
-              <div className="space-y-6 text-justify text-slate-400 font-light text-lg leading-relaxed">
+              <div className="space-y-6 text-slate-400 font-light text-lg leading-relaxed">
                 <p>
                   Plus qu’un simple exécutant, j’interviens comme un partenaire technique. Mon rôle est de comprendre vos problématiques commerciales pour y apporter une solution technique robuste, minimisant la maintenance future et maximisant votre efficacité.
                 </p>
@@ -410,7 +410,7 @@ const Portfolio: React.FC = () => {
               return (
                 <div
                   key={index}
-                  className={`relative flex text-justify flex-col justify-between group transition-all duration-500 bg-[#110a1c]/30 hover:bg-[#110a1c]/60 border border-white/5 hover:border-white/10 p-6 sm:p-8 ${
+                  className={`relative flex flex-col justify-between group transition-all duration-500 bg-[#110a1c]/30 hover:bg-[#110a1c]/60 border border-white/5 hover:border-white/10 p-6 sm:p-8 ${
                     isLargeCard ? 'lg:col-span-12 xl:col-span-8' : 'lg:col-span-6 xl:col-span-4'
                   }`}
                 >
@@ -528,7 +528,7 @@ const Portfolio: React.FC = () => {
                   <h4 className="text-lg font-medium text-white">{exp.company}</h4>
                   <p className="text-xs font-mono text-violet-400 mt-1 uppercase tracking-wider">{exp.role}</p>
                 </div>
-                <div className="md:col-span-5 text-justify text-sm text-slate-400 font-light leading-relaxed">
+                <div className="md:col-span-5 text-sm text-slate-400 font-light leading-relaxed">
                   {exp.description}
                 </div>
               </div>
