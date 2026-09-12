@@ -10,7 +10,6 @@ import {
   Loader2,
   Github,
   ArrowRight,
-  CheckCircle,
   Monitor,
   Layout,
   Palette,
