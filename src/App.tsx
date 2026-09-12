@@ -86,22 +86,22 @@ const projects: Project[] = [
 
 const experiences: Experience[] = [
   {
-    company: "2CL SERVICES",
-    role: "Développeur Web",
-    period: "Fév. 2025 - Déc. 2025",
-    description: "Création d'architectures web robustes (React/Next.js) et mise en place d'un outil de supervision réseau pour optimiser la disponibilité du parc informatique."
+    company: "2CL SERVICE",
+    role: "Stagiaire Développeur Web",
+    period: "Fév. 2025 – Déc. 2025",
+    description: "Mise en place des applications web privées de l'entreprise, développement du système de supervision des ressources internes des machines sur réseau local et mise en place de la plateforme de formation de l'entreprise."
   },
   {
     company: "TPAPY",
-    role: "Développeur Full Stack",
-    period: "Juil. - Oct. 2024",
-    description: "Développement d'une plateforme e-commerce performante sous Laravel et conception d'interfaces dynamiques générant une meilleure rétention utilisateur."
+    role: "Stagiaire Développeur Web",
+    period: "Juil. 2024 – Sept. 2024",
+    description: "Développement d'applications web avec les frameworks Laravel et Flask, et initiation/développement mobile avec Flutter."
   },
   {
     company: "TPAPY",
-    role: "Intégrateur Web",
-    period: "Juil. - Oct. 2023",
-    description: "Intégration pixel-perfect de maquettes Figma en PHP/Bootstrap. Focus sur le responsive design pour garantir une expérience mobile irréprochable."
+    role: "Stagiaire Développeur Web",
+    period: "Juil. 2023 – Sept. 2023",
+    description: "Intégration d'interfaces web dynamiques et prise en main du framework Bootstrap."
   }
 ];
 
